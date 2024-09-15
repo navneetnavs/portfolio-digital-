@@ -103,6 +103,8 @@ const projects = [
     technologies: ["React", "TypeScript", "CSS"],
     description:
       "A quiz app to demonstrate my React and Typescript skills.",
+      features: [], 
+    challenges: [],
     dateCompleted: "2023-06-18",
   },
   {
@@ -139,6 +141,8 @@ const projects = [
     technologies: ["GSAP", "Scrolltrigger", "Canvas", "Locomotive JS"],
     description:
       "This project is a homage to Apple's iconic design and user experience, encapsulating the essence of innovation and aesthetics that define Apple's digital presence.",
+      features: [], 
+    challenges: [],
     dateCompleted: "2023-03-14",
   },
   {
@@ -153,6 +157,8 @@ const projects = [
     technologies: ["HTML", "CSS", "JAVASCRIPT"],
     description:
       "Modern Chair Project",
+      features: [], 
+    challenges: [],
     dateCompleted: "2023-03-14",
   },
   {
@@ -167,7 +173,9 @@ const projects = [
     technologies: ["HTML", "CSS", "JAVASCRIPT","TAILWIND-CSS"],
     description:
       "Clone of the popular Razorpay payment gateway using HTML, CSS, and Tailwind CSS",
-    dateCompleted: "2023-03-14",
+      features: [], 
+    challenges: [],
+      dateCompleted: "2023-03-14",
   },
   {
     name: "DiscordClone",
@@ -181,9 +189,67 @@ const projects = [
     technologies: ["HTML", "CSS", "JAVASCRIPT","TAILWIND-CSS"],
     description:
       "This project is a web-based application that replicates the core features of the popular chat and communication platform, Discord.",
-    dateCompleted: "2023-03-14",
+      features: [], 
+      challenges: [],
+      dateCompleted: "2023-03-14",
   },
   
 ];
+
+// const projects = [
+//   {
+//     name: "Paytm App",
+//     imgUrl: "/images/projects/paytm.jpg",
+//     projectType: "web",
+//     status: "completed",
+//     liveUrl: "https://money-transfer-app-theta.vercel.app/",
+//     repoUrl: "https://github.com/navneetnavs/MoneyTransferApp.git",
+//     technologies: ["HTML", "CSS", "JavaScript", "React", "MongoDB", "Express.js", "Node.js"],
+//     description: "Developed a Paytm-like application using the MERN stack.",
+//     features: ["Responsive design", "Single page application", "Dark mode"],
+//     challenges: ["Setting up deployment on Vercel", "Optimizing performance"],
+//     dateCompleted: "2023-07-10",
+//   },
+//   {
+//     name: "Quiz-app",
+//     imgUrl: "/images/projects/quiz.jpg",
+//     projectType: "web",
+//     status: "completed",
+//     liveUrl: "https://typescript-project-six.vercel.app/",
+//     repoUrl: "https://github.com/navneetnavs/quiz-app.git",
+//     technologies: ["React", "TypeScript", "CSS"],
+//     description: "A quiz app to demonstrate my React and TypeScript skills.",
+//     features: [], 
+//     challenges: [], 
+//     dateCompleted: "2023-06-18",
+//   },
+//   {
+//     name: "ImageGallery",
+//     imgUrl: "/images/projects/gallery.jpg",
+//     projectType: "web",
+//     status: "completed",
+//     liveUrl: "https://darkx-dev.github.io/sneakers-frontend/",
+//     repoUrl: "https://euphonious-piroshki-a28c66.netlify.app/",
+//     technologies: ["HTML", "CSS", "JavaScript"],
+//     description: "Application that will assist you in organizing, showcasing, and maintaining your art inventory effortlessly.",
+//     features: ["Image gallery", "Add to cart functionality", "Responsive design"],
+//     challenges: ["Building an interactive image gallery", "Handling dynamic cart interactions"],
+//     dateCompleted: "2023-04-28",
+//   },
+//   {
+//     name: "AppleVisionPro",
+//     imgUrl: "/images/projects/apple.jpg",
+//     projectType: "web",
+//     status: "completed",
+//     liveUrl: "https://github.com/Darkx-dev/music-player-react-native/releases/tag/1.0.0",
+//     repoUrl: "https://github.com/Darkx-dev/music-player-react-native",
+//     technologies: ["GSAP", "Scrolltrigger", "Canvas", "Locomotive JS"],
+//     description: "This project is a homage to Apple's iconic design and user experience.",
+//     features: [], // Add an empty array for features
+//     challenges: [], // Add an empty array for challenges
+//     dateCompleted: "2023-03-14",
+//   },
+//   // More projects here...
+// ];
 
 export { skills, projects };
