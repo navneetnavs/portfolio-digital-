@@ -42,7 +42,7 @@ const skills = [
 const projects = [
   { 
     name: "Feedback AI",
-    imgUrl: "https://ibb.co/9wrBhcR",
+    imgUrl: "/images/projects/7793E601-996C-41E0-9609-E0AA85E88A95_1_201_a.jpeg",
     projectType: "web" as "web",
     status: "completed" as "completed",
     liveUrl: "https://mystery-message-bay.vercel.app/",
