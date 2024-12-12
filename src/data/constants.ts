@@ -40,7 +40,21 @@ const skills = [
 ];
 
 const projects = [
-  {
+  { 
+    name: "Feedback AI",
+    imgUrl: "/images/projects/feedback.jpg",
+    projectType: "web" as "web",
+    status: "completed" as "completed",
+    liveUrl: "https://mystery-message-bay.vercel.app/",
+    repoUrl: "https://github.com/navneetnavs/feedbackai.git",
+    technologies: ["Next.js", "shadcn/ui", "TypeScript", "React","Tailwind CSS", "MongoDB","Express.js","Node.js"],
+    description:
+      "A full stack application that uses nextjs. We has written our own Auth system, JWT tokens, sessions, AuthJS and project that includes AI integration.",
+    features: ["Responsive design", "Single page application", "Dark mode"],
+    challenges: ["Setting up deployment on Vercel", "Optimizing performance"],
+    dateCompleted: "2023-07-10",
+  },
+   { 
     name: "Paytm App",
     imgUrl: "/images/projects/paytm.jpg",
     projectType: "web" as "web",
