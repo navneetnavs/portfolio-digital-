@@ -47,14 +47,7 @@ const projects = [
     status: "completed" as "completed",
     liveUrl: "https://studynotion-fullstack-qb8z.vercel.app/",
     repoUrl: "https://github.com/navneetnavs/studynotion_fullstack.git",
-  },
-  {
-    name: "Feedback AI",
-    imgUrl: "/images/projects/feedback.jpg",
-    projectType: "web" as "web",
-    status: "completed" as "completed",
-    liveUrl: "https://mystery-message-bay.vercel.app/",
-    repoUrl: "https://github.com/navneetnavs/portfolio-digital-.git",
+    technologies: [ "JavaScript", "React","Tailwind CSS", "MongoDB","Express.js","Node.js"],
   },
   { 
     name: "Feedback AI",
