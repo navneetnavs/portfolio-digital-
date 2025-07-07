@@ -52,6 +52,7 @@ const projects = [
       "A full stack application that uses MERN Stack.",
     features: ["Responsive design", ],
     challenges: ["Setting up deployment on Vercel", "Optimizing performance"],
+    dateCompleted: "2023-24",
   },
   { 
     name: "Feedback AI",
@@ -187,22 +188,6 @@ const projects = [
       features: [], 
     challenges: [],
     dateCompleted: "2023-03-14",
-  },
-  {
-    name: "RazorpayClone",
-    imgUrl:
-      "/images/projects/razorpay.jpg",
-    projectType: "web" as "web",
-    status: "completed" as "completed",
-    liveUrl:
-      "https://sweet-ganache-a49061.netlify.app/",
-    repoUrl: "https://github.com/navneetnavs/Razorpay_Clone.git",
-    technologies: ["HTML", "CSS", "JAVASCRIPT","TAILWIND-CSS"],
-    description:
-      "Clone of the popular Razorpay payment gateway using HTML, CSS, and Tailwind CSS",
-      features: [], 
-    challenges: [],
-      dateCompleted: "2023-03-14",
   },
   {
     name: "DiscordClone",
