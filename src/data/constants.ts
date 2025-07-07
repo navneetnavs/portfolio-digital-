@@ -40,6 +40,7 @@ const skills = [
 ];
 
 const projects = [
+<<<<<<< HEAD
   {
     name: "Feedback AI",
     imgUrl: "/images/projects/feedback.jpg",
@@ -47,6 +48,15 @@ const projects = [
     status: "completed" as "completed",
     liveUrl: "https://mystery-message-bay.vercel.app/",
     repoUrl: "https://github.com/navneetnavs/portfolio-digital-.git",
+=======
+  { 
+    name: "Feedback AI",
+    imgUrl: "/images/projects/7793E601-996C-41E0-9609-E0AA85E88A95_1_201_a.jpeg",
+    projectType: "web" as "web",
+    status: "completed" as "completed",
+    liveUrl: "https://mystery-message-bay.vercel.app/",
+    repoUrl: "https://github.com/navneetnavs/feedbackai.git",
+>>>>>>> a4041f985825b3bd2488ac9b6abf1a6c2748de22
     technologies: ["Next.js", "shadcn/ui", "TypeScript", "React","Tailwind CSS", "MongoDB","Express.js","Node.js"],
     description:
       "A full stack application that uses nextjs. We has written our own Auth system, JWT tokens, sessions, AuthJS and project that includes AI integration.",
@@ -54,7 +64,11 @@ const projects = [
     challenges: ["Setting up deployment on Vercel", "Optimizing performance"],
     dateCompleted: "2023-07-10",
   },
+<<<<<<< HEAD
   {
+=======
+   { 
+>>>>>>> a4041f985825b3bd2488ac9b6abf1a6c2748de22
     name: "Paytm App",
     imgUrl: "/images/projects/paytm.jpg",
     projectType: "web" as "web",
