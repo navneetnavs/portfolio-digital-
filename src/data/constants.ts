@@ -48,6 +48,10 @@ const projects = [
     liveUrl: "https://studynotion-fullstack-qb8z.vercel.app/",
     repoUrl: "https://github.com/navneetnavs/studynotion_fullstack.git",
     technologies: [ "JavaScript", "React","Tailwind CSS", "MongoDB","Express.js","Node.js"],
+    description:
+      "A full stack application that uses MERN Stack.",
+    features: ["Responsive design", ],
+    challenges: ["Setting up deployment on Vercel", "Optimizing performance"],
   },
   { 
     name: "Feedback AI",
